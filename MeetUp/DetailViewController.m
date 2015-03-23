@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "WebViewController.h"
 
 @interface DetailViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *eventNameLabel;
@@ -29,8 +30,12 @@
     self.hostInfoLabel.text = [hostInfo objectForKey:@"name"];
     self.descriptionTextField.text = [self.individualMeetUp objectForKey:@"description"];
 
-
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    WebViewController *vc = segue.destinationViewController;
+    vc.urlString = [self.individualMeetUp objectForKey:@"event_url"];
+
+}
 
 @end

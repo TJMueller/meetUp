@@ -48,9 +48,6 @@
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     DetailViewController *vc = segue.destinationViewController;
     vc.individualMeetUp = [self.meetUpArray objectAtIndex:indexPath.row];
-
-
-
 }
 
 

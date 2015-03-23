@@ -15,6 +15,7 @@
 		23E0267D1AC096D6001031BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23E0267B1AC096D6001031BB /* LaunchScreen.xib */; };
 		23E026891AC096D6001031BB /* MeetUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E026881AC096D6001031BB /* MeetUpTests.m */; };
 		23E026941AC0A0E1001031BB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E026931AC0A0E1001031BB /* DetailViewController.m */; };
+		23E026971AC0A9B1001031BB /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E026961AC0A9B1001031BB /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		23E026881AC096D6001031BB /* MeetUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetUpTests.m; sourceTree = "<group>"; };
 		23E026921AC0A0E1001031BB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		23E026931AC0A0E1001031BB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		23E026951AC0A9B1001031BB /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		23E026961AC0A9B1001031BB /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				23E026741AC096D6001031BB /* ViewController.m */,
 				23E026921AC0A0E1001031BB /* DetailViewController.h */,
 				23E026931AC0A0E1001031BB /* DetailViewController.m */,
+				23E026951AC0A9B1001031BB /* WebViewController.h */,
+				23E026961AC0A9B1001031BB /* WebViewController.m */,
 				23E026761AC096D6001031BB /* Main.storyboard */,
 				23E026791AC096D6001031BB /* Images.xcassets */,
 				23E0267B1AC096D6001031BB /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E026751AC096D6001031BB /* ViewController.m in Sources */,
+				23E026971AC0A9B1001031BB /* WebViewController.m in Sources */,
 				23E026721AC096D6001031BB /* AppDelegate.m in Sources */,
 				23E0266F1AC096D6001031BB /* main.m in Sources */,
 				23E026941AC0A0E1001031BB /* DetailViewController.m in Sources */,
