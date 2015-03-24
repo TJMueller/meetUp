@@ -14,7 +14,6 @@
 @property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
 @property NSArray *meetUpArray;
 @property NSDictionary *details;
-@property NSArray *searchResults;
 @property NSString *apiURL;
 @end
 

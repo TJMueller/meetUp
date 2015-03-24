@@ -18,6 +18,8 @@
 		23E026971AC0A9B1001031BB /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E026961AC0A9B1001031BB /* WebViewController.m */; };
 		23E0269A1AC0CD21001031BB /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E026991AC0CD21001031BB /* Event.m */; };
 		23E0269D1AC0D8FB001031BB /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0269C1AC0D8FB001031BB /* CommentViewController.m */; };
+		23E026A01AC0DD87001031BB /* CommentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E0269F1AC0DD87001031BB /* CommentDetailViewController.m */; };
+		23E026A31AC0DF78001031BB /* CommentDetailWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E026A21AC0DF78001031BB /* CommentDetailWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		23E026991AC0CD21001031BB /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		23E0269B1AC0D8FB001031BB /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
 		23E0269C1AC0D8FB001031BB /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		23E0269E1AC0DD87001031BB /* CommentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentDetailViewController.h; sourceTree = "<group>"; };
+		23E0269F1AC0DD87001031BB /* CommentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentDetailViewController.m; sourceTree = "<group>"; };
+		23E026A11AC0DF78001031BB /* CommentDetailWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentDetailWebViewController.h; sourceTree = "<group>"; };
+		23E026A21AC0DF78001031BB /* CommentDetailWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentDetailWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 				23E026931AC0A0E1001031BB /* DetailViewController.m */,
 				23E0269B1AC0D8FB001031BB /* CommentViewController.h */,
 				23E0269C1AC0D8FB001031BB /* CommentViewController.m */,
+				23E0269E1AC0DD87001031BB /* CommentDetailViewController.h */,
+				23E0269F1AC0DD87001031BB /* CommentDetailViewController.m */,
+				23E026A11AC0DF78001031BB /* CommentDetailWebViewController.h */,
+				23E026A21AC0DF78001031BB /* CommentDetailWebViewController.m */,
 				23E026951AC0A9B1001031BB /* WebViewController.h */,
 				23E026961AC0A9B1001031BB /* WebViewController.m */,
 				23E026761AC096D6001031BB /* Main.storyboard */,
@@ -244,6 +254,8 @@
 				23E0269D1AC0D8FB001031BB /* CommentViewController.m in Sources */,
 				23E026971AC0A9B1001031BB /* WebViewController.m in Sources */,
 				23E026721AC096D6001031BB /* AppDelegate.m in Sources */,
+				23E026A31AC0DF78001031BB /* CommentDetailWebViewController.m in Sources */,
+				23E026A01AC0DD87001031BB /* CommentDetailViewController.m in Sources */,
 				23E0266F1AC096D6001031BB /* main.m in Sources */,
 				23E026941AC0A0E1001031BB /* DetailViewController.m in Sources */,
 			);
